@@ -14,5 +14,7 @@ public class CreateFile {
         }
         System.out.println(myFile.getName() + " is located at " + myFile.getAbsolutePath() + "\nand it contains " + myFile.length() + " characters");
 
+
+
     }
 }
