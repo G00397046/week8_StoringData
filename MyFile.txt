@@ -1,1 +1,2 @@
-Here is some text Here is some more textHere is some textHere is some more text
+I have written some more textHeres some textHere is some text on a new line
+Here's a bit more on a new line
