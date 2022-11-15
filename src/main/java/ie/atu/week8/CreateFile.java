@@ -12,7 +12,7 @@ public class CreateFile {
         else{
             System.out.println("A file with the name of " + myFile.getName() + " already exists.");
         }
-        System.out.println(myFile.getName() + " is located at " + myFile.getAbsolutePath());
+        System.out.println(myFile.getName() + " is located at " + myFile.getAbsolutePath() + "\nand it contains " + myFile.length() + " characters");
 
     }
 }
