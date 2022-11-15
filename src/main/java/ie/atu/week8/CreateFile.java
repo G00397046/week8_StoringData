@@ -24,8 +24,8 @@ public class CreateFile {
             while (inputFile.hasNext()){
                 String str = inputFile.nextLine();
                 System.out.println(str);
-
             }
+            inputFile.close();
 
         }
         catch (IOException e){
