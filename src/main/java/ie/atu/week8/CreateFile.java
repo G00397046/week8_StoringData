@@ -20,11 +20,13 @@ public class CreateFile {
             outputWriter.println("Here is some text on a new line");
             outputWriter.println("Here's a bit more on a new line");
             outputWriter.close();
-            Scanner inputFile = new Scanner(filename);
+            Scanner inputFile = new Scanner(new File(filename));
             while (inputFile.hasNext()){
                 String str = inputFile.nextLine();
                 System.out.println(str);
+
             }
+
         }
         catch (IOException e){
             System.out.println("Error");
