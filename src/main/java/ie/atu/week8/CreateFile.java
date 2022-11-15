@@ -11,7 +11,7 @@ public class CreateFile {
         System.out.println(myFile.getName() + " is located at " + myFile.getAbsolutePath() + "\nand it contains " + myFile.length() + " characters");
 
         try {
-            FileWriter myWriter = new FileWriter(myFile);
+            FileWriter myWriter = new FileWriter(myFile,true);
             myWriter.write("Here is some text");
             myWriter.write("Here is some more text");
             myWriter.close();
